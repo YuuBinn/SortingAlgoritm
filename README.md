@@ -56,7 +56,21 @@
 각각의 경우에 대한 시간복잡도를 정리하면, 아래와 같다.
 ![1](https://user-images.githubusercontent.com/101811119/166922775-72e3fc4e-4006-40f7-8d3a-0486f8be6d57.png)
 
-## | 장단점 비교
+
+## | 그래프로 비교
+
+입력 데이터가 [32, 64, 128, 256, ``` , 1048576] (2의 5제곱부터 20제곱까지) 일 때의 수행 시간을 그래프로 비교하면 아래와 같다.
+
+### 1) 최선의 경우 : 정렬된 데이터
+![11](https://user-images.githubusercontent.com/101811119/166937435-5dcefbad-78be-4c36-9aeb-f5dc979b5ebf.png)
+
+
+### 2) 평균의 경우 : 랜덤된 데이터
+![22](https://user-images.githubusercontent.com/101811119/166937459-cba1090c-1514-41a6-a17a-445be62c41c9.png)
+
+
+### 3) 최악의 경우 : 역 정렬된 데이터
+![33](https://user-images.githubusercontent.com/101811119/166937470-6f1bd09b-c8eb-46b4-a03e-d2783925add0.png)
 
 
 #
