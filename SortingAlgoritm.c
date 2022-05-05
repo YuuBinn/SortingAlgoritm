@@ -1,3 +1,6 @@
+// 정렬하는 배열이 list[n] = {6, 3, 9, 1, 2}일 때의 c언어 코드!
+
+
 // ## | 버블 정렬(Bubble Sort)
 
         #include <stdio.h>
